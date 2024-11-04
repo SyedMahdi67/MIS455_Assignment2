@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greater Number Finder</title>
+    <style>
+        .result-box {
+            margin-top: 20px;
+            padding: 10px;
+            border: 2px solid #000;
+            width: 250px;
+            text-align: center;
+            font-size: 18px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Find the Greater Number</h2>
+    <label for="num1">Enter the first number:</label>
+    <input type="number" id="num1" required>
+    <br><br>
+    <label for="num2">Enter the second number:</label>
+    <input type="number" id="num2" required>
+    <br><br>
+    <button onclick="findGreaterNumber()">Check Greater Number</button>
+
+    <div id="result" class="result-box"></div>
+
+    <script src="JS/displayGreater.js"></script>
+</body>
+</html>
